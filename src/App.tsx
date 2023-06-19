@@ -17,12 +17,12 @@ function App() {
                     <Routes>
                         <Route path="/" element={
                             <RequireAuth>
-                                <DashboardPage user={"david"}/>
+                                <DashboardPage/>
                             </RequireAuth>
                         }/>
                         <Route path="/calendar" element={
                             <RequireAuth>
-                                <DashboardPage user={"calendar"}/>
+                                <DashboardPage/>
                             </RequireAuth>
                         }/>
                         <Route path={"/login"} element={<LoginPage/>} />

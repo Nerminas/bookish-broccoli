@@ -160,7 +160,7 @@ export default function LoginPage() {
                                     Forgot password?
                                 </Link>
                             </Grid>
-                            <Grid item>
+                            <Grid item xs>
                                 <Link href="#" variant="body2">
                                     {"Don't have an account? Sign Up"}
                                 </Link>
